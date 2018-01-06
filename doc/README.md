@@ -1,4 +1,5 @@
-1. Confluence (integration?)
+# X Skillls
+
 1. 概念设计
 1. LDAP
 1. Gitlab (mem leak issue)
@@ -13,7 +14,7 @@
 1. DB/Cache/MQ monitoring and analysis ?
 1. Jira
 1. OpenStack 
-1. ProxySQL/TDDL/sharding-jdbc
+1. ProxySQL/TDDL/tair/sharding-jdbc
 1. MongoDB
 1. Cache
 1. Database naming
@@ -23,10 +24,8 @@
 1. React Native
 1. Spring boot admin
 1. Spring cloud
-1. Kubernetes
 1. Log and Kafka: Collection, Multiple log files
 1. RocketMQ/RabbitMQ?
-1. TDDL/Tair/ProxySQL
 1. MockMVC
 1. Gradle
 1. CDN (not enough)
