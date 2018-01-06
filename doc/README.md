@@ -1,4 +1,4 @@
-# X Skillls
+# X Skills
 
 1. 概念设计
 1. LDAP
