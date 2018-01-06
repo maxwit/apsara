@@ -27,7 +27,6 @@
 1. Log and Kafka: Collection, Multiple log files
 1. RocketMQ/RabbitMQ?
 1. MockMVC
-1. Gradle
 1. CDN (not enough)
 1. 数据库设计：逻辑设计、物理设计
 1. Cassandra
