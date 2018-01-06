@@ -1,35 +1,35 @@
-# Confluence (integration?)
-# 概念设计
-# LDAP
-# Gitlab (mem leak issue)
-# Jenkins
-# Docker & Kubernetes
-# DB Unit?
-# Dingding (OpenAPI)
-# Code analysis: codecov, IDEA built-in, …
-# Code coverage: Coco/imagix/bullseye (or alike)
-# Mem leakage?
-# Nexus
-# DB/Cache/MQ monitoring and analysis ?
-# Jira
-# OpenStack 
-# ProxySQL/TDDL/sharding-jdbc
-# MongoDB
-# Cache
-# Database naming
-# 小程序
-# iOS: Swift
-# Android: Kotlin, Gradle
-# React Native
-# Spring boot admin
-# Spring cloud
-# Kubernetes
-# Log and Kafka: Collection, Multiple log files
-# RocketMQ/RabbitMQ?
-# TDDL/Tair/ProxySQL
-# MockMVC
-# Gradle
-# CDN (not enough)
-# 数据库设计：逻辑设计、物理设计
-# Cassandra
-# 异地容灾、异地多活
+1. Confluence (integration?)
+1. 概念设计
+1. LDAP
+1. Gitlab (mem leak issue)
+1. Jenkins
+1. Docker & Kubernetes
+1. DB Unit?
+1. Dingding (OpenAPI)
+1. Code analysis: codecov, IDEA built-in, …
+1. Code coverage: Coco/imagix/bullseye (or alike)
+1. Mem leakage?
+1. Nexus
+1. DB/Cache/MQ monitoring and analysis ?
+1. Jira
+1. OpenStack 
+1. ProxySQL/TDDL/sharding-jdbc
+1. MongoDB
+1. Cache
+1. Database naming
+1. 小程序
+1. iOS: Swift
+1. Android: Kotlin, Gradle
+1. React Native
+1. Spring boot admin
+1. Spring cloud
+1. Kubernetes
+1. Log and Kafka: Collection, Multiple log files
+1. RocketMQ/RabbitMQ?
+1. TDDL/Tair/ProxySQL
+1. MockMVC
+1. Gradle
+1. CDN (not enough)
+1. 数据库设计：逻辑设计、物理设计
+1. Cassandra
+1. 异地容灾、异地多活
