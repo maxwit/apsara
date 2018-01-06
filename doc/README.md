@@ -18,14 +18,16 @@
 1. MongoDB
 1. Cache
 1. Database naming
+1. Swift
+1. Kotlin
 1. 小程序
-1. iOS: Swift
-1. Android: Kotlin, Gradle
+1. iOS
+1. Android
 1. React Native
 1. Spring boot admin
 1. Spring cloud
 1. Log and Kafka: Collection, Multiple log files
-1. RocketMQ/RabbitMQ?
+1. RocketMQ vs. RabbitMQ?
 1. MockMVC
 1. CDN (not enough)
 1. 数据库设计：逻辑设计、物理设计
