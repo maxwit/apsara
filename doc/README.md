@@ -4,7 +4,7 @@
 1. Gitlab (mem leak issue)
 1. Jenkins
 1. Docker & Kubernetes
-1. Dingding (OpenAPI)
+1. Dingding Talk (OpenAPI)
 1. Nexus
 1. DB/Cache/MQ monitoring and analysis ?
 1. Jira
