@@ -1,7 +1,7 @@
 # X Skills
 
+1. Gitlab (mem leak issue) + Confluence (@Young) + Jenkins + LDAP + Nexus (+ Jira ?)
 1. OpenStack (or Vagrant?)
-1. Confluence (@Young) + Gitlab (mem leak issue) + Jenkins + LDAP + Nexus (+ Jira ?)
 1. Docker + Kubernetes
 1. Dingding Talk (OpenAPI)
 1. DB/Cache/MQ monitoring and analysis ?
@@ -15,7 +15,7 @@
 1. 小程序
 1. iOS
 1. Android
-1. React Native
+1. H5: React, Vue, React Native
 1. Spring boot admin
 1. Spring cloud
 1. Log and Kafka: Collection, Multiple log files
