@@ -9,7 +9,7 @@
 1. MongoDB (GUI client)
 1. Redis
 1. HBase
-1. Casssandra
+1. Cassandra
 1. Swift
 1. Kotlin
 1. 小程序
