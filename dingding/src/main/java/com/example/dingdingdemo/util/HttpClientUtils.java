@@ -1,4 +1,4 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.util;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

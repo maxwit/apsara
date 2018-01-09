@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.util;
 
 import javax.xml.bind.annotation.XmlElement;
 import java.lang.reflect.Field;

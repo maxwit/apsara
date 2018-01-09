@@ -1,4 +1,4 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.dto;
 
 /**
  * Created by nicolezhao

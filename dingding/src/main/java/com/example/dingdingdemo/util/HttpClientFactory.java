@@ -3,19 +3,16 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.util;
 
-import java.security.KeyManagementException;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableKeyException;
-import javax.net.ssl.SSLContext;
 import org.apache.http.client.HttpClient;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.SSLContexts;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+
+import javax.net.ssl.SSLContext;
+import java.security.*;
 
 public class HttpClientFactory {
     public HttpClientFactory() {
@@ -38,7 +35,7 @@ public class HttpClientFactory {
     public static HttpClient createKeyMaterialHttpClient(KeyStore keystore, String keyPassword, String[] supportedProtocols) {
         try {
             SSLContext sslContext = SSLContexts.custom().useSSL().loadKeyMaterial(keystore, keyPassword.toCharArray()).build();
-            SSLConnectionSocketFactory sf = new SSLConnectionSocketFactory(sslContext, supportedProtocols, (String[])null, SSLConnectionSocketFactory.BROWSER_COMPATIBLE_HOSTNAME_VERIFIER);
+            SSLConnectionSocketFactory sf = new SSLConnectionSocketFactory(sslContext, supportedProtocols, (String[]) null, SSLConnectionSocketFactory.BROWSER_COMPATIBLE_HOSTNAME_VERIFIER);
             return HttpClientBuilder.create().setSSLSocketFactory(sf).build();
         } catch (NoSuchAlgorithmException | KeyStoreException | UnrecoverableKeyException | KeyManagementException var5) {
             var5.printStackTrace();

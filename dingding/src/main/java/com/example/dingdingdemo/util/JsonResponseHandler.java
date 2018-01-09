@@ -3,15 +3,16 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.util;
 
 import com.alibaba.fastjson.JSON;
-import java.util.HashMap;
-import java.util.Map;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.util.EntityUtils;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class JsonResponseHandler {
     private static Map<String, ResponseHandler<?>> map = new HashMap();
@@ -21,7 +22,7 @@ public class JsonResponseHandler {
 
     public static <T> ResponseHandler<T> createResponseHandler(Class<T> clazz) {
         if (map.containsKey(clazz.getName())) {
-            return (ResponseHandler)map.get(clazz.getName());
+            return (ResponseHandler) map.get(clazz.getName());
         } else {
             ResponseHandler<T> responseHandler = (response) -> {
                 int status = response.getStatusLine().getStatusCode();
