@@ -1,3 +1,4 @@
 # apsara
 
-demo for issue automation
+demo for issue-kanban
+
