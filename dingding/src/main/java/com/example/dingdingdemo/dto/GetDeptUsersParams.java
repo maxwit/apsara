@@ -1,10 +1,10 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.dto;
 
 /**
  * Created by nicolezhao
  * On 1/8/18.
  */
-public class GetDeptUsersParams extends BaseParams{
+public class GetDeptUsersParams extends BaseParams {
     private String access_token;
 
     private Integer department_id;

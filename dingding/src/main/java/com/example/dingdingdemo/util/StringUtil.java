@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.util;
 
 public class StringUtil {
     public StringUtil() {

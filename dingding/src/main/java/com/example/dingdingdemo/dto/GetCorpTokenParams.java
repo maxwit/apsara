@@ -1,9 +1,9 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.dto;
 
 /**
  * Created by Lucyar on 2017/4/24.
  */
-public class GetCorpTokenParams extends BaseParams{
+public class GetCorpTokenParams extends BaseParams {
 
     private String corpid;
     private String corpsecret;

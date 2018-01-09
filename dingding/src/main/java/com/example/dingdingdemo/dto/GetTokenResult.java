@@ -1,9 +1,9 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.dto;
 
 /**
  * Created by Lucyar on 2017/4/24.
  */
-public class GetTokenResult extends BaseParams{
+public class GetTokenResult extends BaseParams {
 
     private String access_token;
     private String errcode;
