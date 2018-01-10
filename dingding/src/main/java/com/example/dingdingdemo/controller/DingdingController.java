@@ -22,6 +22,7 @@ import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.util.EntityUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -50,6 +51,8 @@ public class DingdingController {
     private String createMicroappUrl = "https://oapi.dingtalk.com/microapp/create";
     private String uploadMediaUrl = "https://oapi.dingtalk.com/media/upload";
 
+    @Value("${upload.file.path}")
+    private String uploadFilepath;
 
     /**
      * 获取企业accessToken
@@ -128,7 +131,8 @@ public class DingdingController {
     public String uploadMedia(@RequestParam(value = "type") String type, @RequestParam(value = "media") MultipartFile file) {
         UploadMediaParams uploadMediaParams = new UploadMediaParams();
         uploadMediaParams.setType(type);
-        File file1 = new File("/Users/nicolezhao/test.jpg");
+
+        File file1 = new File(uploadFilepath);
         try {
             file.transferTo(file1);
         } catch (IOException e) {
