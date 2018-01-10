@@ -1,13 +1,11 @@
-package com.example.dingdingdemo;
-
-import com.alibaba.fastjson.JSON;
+package com.example.dingdingdemo.dto;
 
 /**
  * Created by nicolezhao
  * On 1/8/18.
  */
-public class SendMsgParams extends BaseParams{
-//    private String session;
+public class SendMsgParams extends BaseParams {
+    //    private String session;
 //    private String method;
 //    private String timestamp;
 //    private String format;

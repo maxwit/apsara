@@ -1,11 +1,11 @@
-package com.example.dingdingdemo;
+package com.example.dingdingdemo.dto;
 
 import java.io.Serializable;
 
 /**
  * Created by Lucyar on 2017/4/25.
  */
-public class BaseParams implements Serializable{
+public class BaseParams implements Serializable {
 
     private String errcode;//返回码
     private String errmsg;//对返回码的文本描述内容
