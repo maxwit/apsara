@@ -28,16 +28,16 @@ echo "wget elasticSearch zip"
 echo "wget- from url"
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.1.1.zip
 unzip elasticsearch-6.1.1.zip
-#cd elasticsearch-6.1.1
-#./bin/elasticsearch
+cd elasticsearch-6.1.1
+./bin/elasticsearch
 
 
 ### kibana
-#cd ..
+cd ..
 curl -O https://artifacts.elastic.co/downloads/kibana/kibana-6.1.1-darwin-x86_64.tar.gz
 tar xvf kibana-6.1.1-darwin-x86_64.tar.gz
-#cd kibana-6.1.1-darwin-x86_64
-#./bin/kibana
+cd kibana-6.1.1-darwin-x86_64
+./bin/kibana
 
 
 ### fluentd
@@ -46,8 +46,8 @@ tar xvf kibana-6.1.1-darwin-x86_64.tar.gz
 # requirement : ruby, gem (ruby package manager, bundle)
 #
 ###
-#cd ..
- 
+
+cd ..
 git clone https://github.com/fluent/fluentd.git
 cd fluentd
 
@@ -59,8 +59,8 @@ bundle exec rake build
 
 gem pkg/fluentd-1.0.2.gem
 
-#fluentd --setup ./fluent
-#fluentd -c ./fluent/fluent.conf -vv
+fluentd --setup ./fluent
+fluentd -c ./fluent/fluent.conf -vv
 
 # for test
-# echo '{"json":"message"}' | fluent-cat debug.test
+echo '{"json":"message"}' | fluent-cat debug.test
