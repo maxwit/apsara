@@ -47,10 +47,12 @@ tar xvf kibana-6.1.1-darwin-x86_64.tar.gz
 #
 ###
 #cd ..
-gem install bundler
  
 git clone https://github.com/fluent/fluentd.git
 cd fluentd
+
+gem install bundler
+gem install fluent-plugin-elasticsearch --no-document
 
 bundle install
 bundle exec rake build
